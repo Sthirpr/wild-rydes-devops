@@ -5,7 +5,7 @@ Parameters:
   GitHubRepo:
     Type: String
     Description: GitHub repository URL
-    Default: https://github.com/wildrydes/application-repo.git
+    Default: https://github.com/Sthirpr/wild-rydes-devops.git
   GitHubBranch:
     Type: String
     Description: GitHub branch to track
@@ -17,7 +17,7 @@ Parameters:
   ECSImage:
     Type: String
     Description: ECS container image
-    Default: nginx:latest # Replace with your actual image
+    Default: "sthirpr/wild-rydes-app:latest"
 
 Resources:
   # VPC and Networking
